@@ -549,6 +549,15 @@ footer {
         margin-right: 0;
     }
 
+    .tab-contents{
+        height: 60vh;
+        width: 70vw;
+    }
+
+    .icons {
+        font-size: 3rem;
+    }
+
     .cover-img {
         width: 98vw;
         height: 50vh;
@@ -560,7 +569,7 @@ footer {
     }
     
     .home-content{
-        position: absolute;
+        margin-top: 50px;
         margin-left: 40vw;
     }
     .home-content h2{
@@ -574,8 +583,90 @@ footer {
         margin-top: 15px;
     }
 
+    #about h2 {
+        font-size: 5rem;
+    }
+
+    .img {
+        height: 50vh;
+        width: 60vw;
+    }
+    
+    .para {
+        font-size: 1.3rem;
+    }
+
+    #contact h2 {
+        font-size: 5rem;
+    }
+
 }
 
-@media (max-width: 600px){
+@media (max-width: 420px){
+
+    #home h1{
+        font-size: 1.2rem;
+        margin: 15px 15px;
+    }
+    
+    .home-content{
+        margin-top: 50px;
+        margin-left: 40vw;
+    }
+    .home-content h2{
+        font-size: 1.2rem;
+    }
+    .home-content p{
+        font-size: 0.8rem;
+    }
+
+    .head_1{
+        height: 50vh;
+        width: 70vw;
+    }
+
+    .block_head{
+        font-size: 1.5rem;
+    }
+
+    .head_span{
+        font-size: 1rem;
+        padding: 5px;
+    }
+
+    .tab-links{
+        font-size: 1.2rem;
+    }
+
+    .tab-contents h2{
+        font-size: 1.5rem;
+    }
+    .tab-contents span{
+        font-size: 1.5rem;
+    }
+    .tab-contents p{
+        font-size: 1rem;
+    }
+
+    #about h2 {
+        font-size: 3rem;
+    }
+
+    .img {
+        height: 50vh;
+        width: 60vw;
+    }
+    
+    .para {
+        font-size: 1rem;
+    }
+
+    #contact h2 {
+        font-size: 3rem;
+    }
+
+    .contact_content a{
+        font-size: 1rem;
+    }
 
 }

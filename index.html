@@ -68,12 +68,12 @@
                         MENU
                     </button>
                     <div class="dropdown-menu dropdown-menu-right">
-                        <button class="dropdown-item" type="button">Home</button>
-                        <button class="dropdown-item" type="button">Gallary</button>
-                        <button class="dropdown-item" type="button">BNP Team</button>
-                        <button class="dropdown-item" type="button">Upcomming Events</button>
-                        <button class="dropdown-item" type="button">About US</button>
-                        <button class="dropdown-item" type="button">Contact US</button>
+                        <button class="dropdown-item" type="button"><a href="#home"> Home </a></button>
+                        <button class="dropdown-item" type="button"><a href="#mission"> Mission </a></button>
+                        <button class="dropdown-item" type="button"><a href="#gallary"> Gallary </a></button>
+                        <!-- <button class="dropdown-item" type="button"><a href="#"> Upcomming Events </a></button> -->
+                        <button class="dropdown-item" type="button"><a href="#about"> About US </a></button>
+                        <button class="dropdown-item" type="button"><a href="#contact"> Contact US </a></button>
                     </div>
                 </div>
 
@@ -94,7 +94,7 @@
         </div>
     </div>
 
-    <div class="container">
+    <div class="container" id="mission">
         <header class="head_1">
             <h3 class="block_head">OUR MISSION</h3>
             <p>"With a focus on skill development , real-world job experiebnce , and trauma-informed care , Hope works
@@ -365,20 +365,6 @@
 
 
         <script src="script.js"></script>
-        <script>
-
-            function toggleHide() {
-                let btn = document.getElementById('btn');
-                let para = document.getElementsByClassName('img-hide');
-
-                if (para.style.display === "none") {
-                    para.style.display = "block";
-                } else {
-                    para.style.display = "none";
-                }
-
-            }
-        </script>
 </body>
 
 </html>
