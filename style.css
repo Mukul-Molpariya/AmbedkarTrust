@@ -252,6 +252,90 @@
     display: block;
 }
 
+/** ***** container 2 with language changing btn ******  **/
+
+.language_btn {
+    background: white;
+    margin: 15px;
+    font-size: 1rem;
+    font-weight: 700;
+    border-radius: 20px;
+    width: 100px;
+    height: 50px;
+}
+
+.btn:hover {
+    background: #EA6F15;
+    border: none;
+    cursor: pointer;
+}
+
+#col2 {
+    display: none;
+}
+
+.intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 1.5rem;
+}
+
+.head-1 {
+    color: green;
+    margin-top: 30px;
+}
+
+.head-2 {
+    color: #EA6F15;
+    font-size: 3.5rem;
+    margin-top: 10px;
+}
+
+.message {
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+    padding: 15px;
+}
+
+.donate-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.donate-button:hover , .donationText:hover {
+    background-color: orangered;
+    text-decoration: none;
+    color: white;
+}
+.donate-button:hover{
+    background-color: #0000FF;
+}
+
+.donationText{
+    font-size: 2rem;
+    background: #64b8ec;
+    text-align: center;
+    padding: 15px;
+    margin: 15px;
+}
+
+
+
+
 /** *********** Gallary*********  **/
 
 /*  ************ Categories **************  */
@@ -376,8 +460,12 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 2rem;
+    margin: 1.8rem;
     font-size: 1.8rem;
+}
+.para1{
+    padding: 10px;
+    border-left: 1px solid orange;
 }
 
 
@@ -398,7 +486,7 @@
 
 .cimg {
     height: 500px;
-    width: 100vw;
+    width: 98vw;
     opacity: 0.4;
     border-radius: 20px;
     position: absolute;
